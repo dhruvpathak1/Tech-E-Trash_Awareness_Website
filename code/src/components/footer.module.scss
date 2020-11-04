@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Kufam:ital@0;1&display=swap");
+
+.body {
+  background-color: black;
+  padding: 4em 2em 2em;
+  font-family: "Kufam", cursive;
+  text-align: center;
+  color: white;
+}
+
+.form,
+.submit,
+textarea {
+  border-radius: 0.5em;
+  margin: 0.5em 0em 1em;
+  text-align: center;
+  padding: 0.5em;
+  color: grey;
+}
+
+textarea {
+  resize: none;
+}
+
+.submit {
+  background-color: #ffc107;
+  padding: 0.7em;
+  border-radius: 1em;
+  color: black;
+}
+
+.link {
+  color: #ffc107;
+  text-decoration: none;
+  font-family: "Kufam", cursive;
+}
+
+.link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.submit:hover {
+  color: #ffc107;
+  background-color: black;
+  border-color: #ffc107;
+}
+
+.headers {
+  font-family: "Kufam", cursive;
+}
+
+.end {
+  text-align: center;
+  color: white;
+}
+
+.horz {
+  border-top: 1px solid #ffc107;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.list {
+  list-style-type: disc;
+  color: white;
+}
+
+.h4link {
+  margin-top: 1.5em;
+  margin-bottom: 0.2em;
+}
+
+.logolink {
+  color: white;
+  text-decoration: none;
+}
+
+.logolink:hover {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: larger;
+  margin: 0.3em;
+}
+
+.nav {
+  margin-top: 1em;
+  background-image: url("../images/n3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 0.5em double black;
+}

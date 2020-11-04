@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+
+.title {
+  background-image: url("../images/p4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    background-image: url("../images/p4_mob.jpg");
+    background-position: center;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.body {
+  margin-left: 5%;
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding: 0.9em;
+}
+
+.aboutdiv {
+  font-family: "Caveat", cursive;
+  padding: 2em;
+}
+
+.aboutpara {
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  padding: 0.2em;
+  text-align: center;
+}
+
+.inline {
+  margin-top: 2em;
+  box-shadow: 10px 10px 10px;
+}
+
+.we {
+  background-image: url(../images/aboutback.png);
+  text-align: center;
+  padding: 1em;
+}
+
+.wehead {
+  font-family: "Caveat", cursive;
+  font-size: 55px;
+}
+
+.wepoint {
+  font-family: "Caveat", cursive;
+  font-size: 50px;
+}
+
+.wesubpoint {
+  font-family: "Caveat", cursive;
+  font-size: 35px;
+}
+
+.team1 {
+  text-align: center;
+  background-color: white;
+  background-image: url(../images/aboutback.png);
+}
+
+.teamhead {
+  font-family: "Caveat", cursive;
+  font-size: 50px;
+  color: black;
+  padding: 1em;
+}
+
+.team {
+  padding: 0.5em;
+}
+
+.para {
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  text-align: center;
+  padding: 0.8em;
+}
+
+.poster {
+  font-size: 3em;
+  font-family: "Caveat", cursive;
+  padding: 1em;
+  text-align: center;
+}
+
+.caro {
+  padding: 0.5em 4em;
+}
+
+.pplimg {
+  text-align: center;
+  border-radius: 7em;
+}
+
+.pplhead {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 50px;
+}
+
+.ppl {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  padding: 1em;
+  font-size: 40px;
+}
+
+.hr {
+  margin: 2em 10em;
+}
