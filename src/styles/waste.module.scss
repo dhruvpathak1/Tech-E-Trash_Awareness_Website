@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+
+.ques {
+  background-image: url("../images/z4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .ques {
+    background-image: url("../images/z4_mob.jpg");
+    background-position: center;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.options1 {
+  margin: 0.5em;
+  padding: 1em;
+  border: 1px solid black;
+}
+
+.title {
+  color: #ffc107;
+  text-align: center;
+}
+
+.button {
+  background-color: black;
+  color: #ffc107;
+  margin: 1em;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  margin: 1em;
+}
+
+.info {
+  text-align: center;
+  font-family: "Caveat", cursive;
+}
+
+.catcard {
+  border: 5px double black;
+}
+
+.cathead {
+  font-size: 3em;
+  border-bottom: 3px dotted black;
+  margin: 0 2em;
+}
+
+.catbody {
+  font-size: 1.5em;
+  padding: 1em 2em;
+}
+
+@media screen and (max-width: 600px) {
+  .options1 {
+    margin: 0em;
+    padding: 1em;
+    border: 1px solid black;
+  }
+
+  .cathead {
+    font-size: 3em;
+    border-bottom: 3px dotted black;
+    margin: 0;
+  }
+  .cathead {
+    font-size: 2em;
+    border-bottom: 3px dotted black;
+    margin: 0 em;
+  }
+
+  .catbody {
+    font-size: 1em;
+    padding: 0.5em 1em;
+  }
+}
+
+.col1 {
+  padding: 3em 1em 1em;
+}
+
+.colofimg {
+  padding: 2em;
+}
+
+.colimg {
+  border: 5px double black;
+  box-shadow: 10px 10px 10px;
+}
+
+.coltext {
+  font-family: "Caveat", cursive;
+  padding: 4em 1em 0em;
+}
+
+.quote {
+  margin: 0;
+  padding: 0.6em;
+  text-align: center;
+}
+
+.quote1 {
+  margin: 0;
+  padding: 0 0.6em 0.6em;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .coltext {
+    padding: 1em;
+  }
+
+  .colofimg {
+    padding: 0;
+  }
+
+  .quote {
+    padding: 1em;
+  }
+
+  .quote1 {
+    padding: 1em;
+  }
+}
+
+.wallpaper {
+  background-image: url("../images/h1.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

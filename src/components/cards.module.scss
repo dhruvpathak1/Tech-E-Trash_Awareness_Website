@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+
+.body {
+  border: black solid 1px;
+  box-shadow: black 2px 2px 15px;
+  font-family: "Caveat", cursive;
+  text-align: center;
+  font-size: larger;
+  margin: 1em;
+}
+
+@media screen and (max-width: 600px) {
+  .body {
+    margin: 0.5em 0;
+  }
+}
+
+.body:hover {
+  transform: translate(0px, 15px);
+}
+
+.title {
+  font-weight: bolder;
+}

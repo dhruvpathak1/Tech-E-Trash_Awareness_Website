@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+
+.title {
+  background-image: url("../images/z1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    background-image: url("../images/z1_mob.jpg");
+    background-position: center;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.contain {
+  text-align: center;
+  padding: 1em;
+}
+.photo {
+  padding: 0.2em;
+  box-shadow: 15px 15px 25px black;
+  border: 10px solid black;
+}
+
+.photo1 {
+  box-shadow: 5px 8px 15px black;
+  border: 10px solid black;
+  width: 37%;
+  height: auto;
+}
+.body {
+  background-color: white;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #eff6ee,
+    #dfecdc,
+    #cfe3cb,
+    #bfd9ba,
+    #afd0a9,
+    #9fc697,
+    #8fbd86,
+    #7fb375,
+    #ffffff
+  );
+}
+
+.header {
+  font-family: "Caveat", cursive;
+}
+
+.apiiframe {
+  width: 60%;
+  height: 600px;
+}
+
+@media screen and (max-width: 600px) {
+  .apiiframe {
+    width: 90%;
+    height: 400px;
+  }
+}

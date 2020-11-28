@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+.title {
+  background-image: url("../images/b1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    background-image: url("../images/b1_mob.jpg");
+    background-position: center;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.col1 {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  margin: 1.5em 0;
+}
+
+.intro {
+  font-family: "Caveat", cursive;
+}
+
+.intropara {
+  font-size: 35px;
+  font-family: "Caveat", cursive;
+}
+
+.vid {
+  border: 0.5em double black;
+  max-width: 100%;
+  height: auto;
+}
+
+.col2 {
+  padding: 1.4em 0 0;
+  border: 5px dashed black;
+  margin: 2em 14em;
+  background-color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .col2 {
+    padding: 1.5em 0 0;
+    border: 5px dashed black;
+    margin: 1em;
+    text-align: center;
+  }
+}
+
+.cards {
+  background-color: grey;
+  background-image: url("../images/h2.jpg");
+  background-attachment: fixed;
+  padding: 4em;
+}
+
+.quote {
+  margin: 0;
+  padding: 0.6em;
+  text-align: center;
+  color: white;
+}
+
+.quote1 {
+  margin: 0;
+  padding: 0 0.6em 0.6em;
+  text-align: center;
+
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .quote {
+    padding: 1em;
+  }
+
+  .quote1 {
+    padding: 1em;
+  }
+}
+
+.wallpaper {
+  background-image: url("../images/h5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
