@@ -1,18 +1,18 @@
 # **Tech-E Trash: A Comprehensive E-Waste Awareness Website**
 
----
+
 
 ### **Project Description**
 
 Tech-E Trash is a web programming project created to raise awareness about the increasing global issue of e-waste and promote responsible disposal practices. The website provides a user-friendly interface with multiple features to educate and assist users in tackling e-waste. The project’s motto is **"For the E-Future Ahead,"** emphasizing the need for responsible measures to prevent discarded technology from harming our planet.
 
----
+
 
 ### **Technical Overview**
 
 The website was developed using the **ReactJS library** on the **NodeJS framework**. The development was specifically done on **Gatsby**, an open-source framework based on React. For deployment, the application uses **Heroku**. User sign-up and login functionalities are managed through a database built with **phpMyAdmin** and **mySQL**, and are connected to the website using **PHP**.
 
----
+
 
 ### **Key Features**
 
@@ -29,7 +29,7 @@ The website is designed with several modules to provide a rich and informative u
 * **Google My Maps API**: A crucial feature is the use of the **Google My Maps API** to display over **150 real locations of e-waste recyclers in India**, helping users find the nearest disposal centers.
 * **Footer**: The footer contains navigation links, a properly working contact form, and links to the creators' personal websites, GitHub, and LinkedIn profiles.
 
----
+
 
 ### **Future Scope**
 
@@ -40,3 +40,4 @@ The creators plan to continuously improve the website with more utilities and fu
 * **E-Waste Pick-up Option**: Adding a convenient e-waste pick-up service for customers to further assist with proper disposal.
 
 This project stands as a testament to using technology for a greater cause, aiming to make people aware of their responsibility towards the planet and helping them take action against the global e-waste problem.
+
